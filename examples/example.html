@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load snippets %}
+{% block content %}
+{% comment %}
+	Snippetology Demo
+	--------------------------------------------------------------------------
+	This is a sample template using a typical structure where a base template 
+	is being extended and most of the work is being done inside of a 'content' 
+	block. The significant parts that you need are the "load snippets" tag
+	above, and the "snippet" and "filter" tags below.
+{% endcomment %}
+<div>
+	<div id="tagline">{% filter random_line %}{% snippet "taglines" %}{% endfilter %}</div>
+<hr>
+	<div id="homepage-message">{% snippet "daily message" %}</div>
+
+</div>
+{% endblock %}

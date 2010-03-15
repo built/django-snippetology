@@ -1,0 +1,29 @@
+Snippetology lets you pull text snippets from the database and inject them into your Django templates. 
+See http://code.google.com/p/django-snippetology/ for a full explanation.
+
+Install
+-------------------------
+    1. Get the latest via svn:
+
+        svn checkout http://django-snippetology.googlecode.com/svn/trunk/ django-snippetology-read-only
+
+    2. Either run "setup.py install" or put the inner snippetology folder in your Django project folder or on your PYTHONPATH.
+    3. Add 'snippetology' to your settings.py
+    4. Run "manage.py syncdb"
+
+
+Using Snippets
+-------------------------
+    1. Go into your Django admin and create some snippets in the Snippetology section. Careful - the name you give your snippet will be the name you use in your template.
+    2. Add the command {% load snippets %} toward the top of your template file.
+    3. To use a snippet add a snippet tag to your template: {% snippet "daily message" %} where "daily message" is an example snippet name. 
+
+
+Randomizing Snippets
+-------------------------
+The random_line tag will randomly select one line out of a snippet full of lines of text. Blank lines are ignored. To use the randomizing feature:
+
+    1. Create a snippet with multiple lines of text.
+    2. Use the following tag to randomly choose and display a line: 
+
+        {% filter random_line %}{% snippet "rotating_banner_list" %}{% endfilter %}

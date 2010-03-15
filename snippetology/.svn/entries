@@ -1,0 +1,55 @@
+8
+
+dir
+2
+https://django-snippetology.googlecode.com/svn/trunk/snippetology
+https://django-snippetology.googlecode.com/svn
+
+
+
+2009-05-12T21:47:16.177915Z
+2
+softbuilder
+
+
+svn:special svn:externals svn:needs-lock
+
+admin.py
+file
+
+
+
+
+2009-05-12T21:39:30.000000Z
+c4ecf469e25aacdcf21955d980ccdd18
+2009-05-12T21:47:16.177915Z
+2
+softbuilder
+
+__init__.py
+file
+
+
+
+
+2009-05-12T21:39:30.000000Z
+d41d8cd98f00b204e9800998ecf8427e
+2009-05-12T21:47:16.177915Z
+2
+softbuilder
+
+models.py
+file
+
+
+
+
+2009-05-12T21:39:30.000000Z
+3876238f3caf2e7d9cb5ea07d3b164ba
+2009-05-12T21:47:16.177915Z
+2
+softbuilder
+
+templatetags
+dir
+

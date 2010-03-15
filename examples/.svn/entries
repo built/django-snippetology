@@ -1,0 +1,28 @@
+8
+
+dir
+2
+https://django-snippetology.googlecode.com/svn/trunk/examples
+https://django-snippetology.googlecode.com/svn
+
+
+
+2009-05-12T21:47:16.177915Z
+2
+softbuilder
+
+
+svn:special svn:externals svn:needs-lock
+
+example.html
+file
+
+
+
+
+2009-05-12T21:39:29.000000Z
+47d921b1284b861f277d8589b7744421
+2009-05-12T21:47:16.177915Z
+2
+softbuilder
+
